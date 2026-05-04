@@ -1,62 +1,72 @@
 # 📊 Loan Approval Analysis Dashboard
 
-## 🔍 Overview
-This project analyzes loan approval data to identify key factors that influence whether a loan is approved or rejected. The workflow includes data cleaning using Python and building an interactive dashboard in Power BI.
+## 🚀 Project Overview
+This project analyzes loan application data to uncover key factors influencing approval decisions and support data-driven lending strategies.
+
+The workflow combines **Python-based data cleaning** with an **interactive Power BI dashboard** for business insights.
 
 ---
 
-## ⚙️ Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
+## 🎯 Objective
+To identify the most important factors affecting loan approval and provide a clear, visual understanding of approval patterns.
+
+---
+
+## 🛠 Tools & Technologies
+- Python (Pandas, NumPy, Seaborn)
 - Power BI
 - Jupyter Notebook
 
 ---
 
-## 📊 Dashboard (Preview)
+## 📊 Dashboard Preview
 ![Dashboard](dashboard.png)
 
 ---
 
 ## 📈 Key Insights
-- Credit history is the most significant factor influencing loan approval  
-- Applicants with poor credit history have a much higher rejection rate  
-- Income alone does not guarantee loan approval  
-- Higher loan amounts slightly increase the chances of rejection  
+- ✔ Credit history is the **strongest predictor** of loan approval  
+- ✔ Income alone is **not a reliable indicator**  
+- ✔ Higher loan amounts show **slightly higher rejection trends**  
+- ✔ Approval patterns vary across property areas  
 
 ---
 
-## 🧠 Project Workflow
-1. Data cleaning and preprocessing using Python  
-2. Handling missing values using median (numerical) and mode (categorical)  
-3. Feature understanding and exploratory data analysis  
-4. Building an interactive Power BI dashboard  
-5. Creating KPIs such as:
-   - Total Applicants  
-   - Approval Rate  
-   - Average Loan Amount  
+## 🔄 Workflow
+1. Data cleaning and preprocessing in Python  
+2. Handling missing values using median and mode  
+3. Exploratory data analysis to identify patterns  
+4. Dashboard creation in Power BI with:
+   - KPIs (Total Applicants, Approval Rate, Avg Loan Amount)
+   - Interactive filters (Property Area)
+   - Comparative visualizations  
 
 ---
 
-## 📁 Files in this Repository
-- `cleaned_loan_data.csv` → Cleaned dataset  
-- `loan_analysis.ipynb` → Python data analysis and preprocessing  
-- `loan_dashboard.pbix` → Power BI dashboard file  
+## 📁 Repository Structure
+├── cleaned_loan_data.csv
+├── loan_analysis.ipynb
+├── loan_dashboard.pbix
+├── dashboard.png
+└── README.md
 
 ---
 
-## 🚀 Future Improvements
-- Add a machine learning model to predict loan approval  
-- Improve dashboard design with advanced Power BI features  
-- Add more feature-based analysis  
+## 🚀 Key Features
+- Interactive Power BI dashboard  
+- KPI-driven analysis  
+- Clean and structured data pipeline  
+- Business-focused insights  
 
 ---
 
-## 📌 How to Use
-1. Open the `.pbix` file in Power BI Desktop  
-2. Explore the dashboard using filters  
-3. Run the notebook to understand data cleaning and analysis  
+## 🔮 Future Improvements
+- Build a predictive model for loan approval  
+- Add advanced feature engineering  
+- Enhance dashboard interactivity  
 
 ---
 
 ## 👤 Author
-- Unnati Bhanushali
+**Unnati Bhanushali**
+
