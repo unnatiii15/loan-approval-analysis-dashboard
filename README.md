@@ -1,14 +1,15 @@
 # 📊 Loan Approval Analysis Dashboard
 
 ## 🚀 Project Overview
-This project analyzes loan application data to uncover key factors influencing approval decisions and support data-driven lending strategies.
+Loan approval decisions depend on multiple financial and behavioral factors.  
+This project analyzes loan application data to uncover **key drivers of approval and rejection**, and presents the findings through an interactive Power BI dashboard.
 
-The workflow combines **Python-based data cleaning** with an **interactive Power BI dashboard** for business insights.
+The goal is to move from raw data → insights → decision support.
 
 ---
 
 ## 🎯 Objective
-To identify the most important factors affecting loan approval and provide a clear, visual understanding of approval patterns.
+To identify the most important factors influencing loan approval and provide a clear, data-driven view of approval patterns for better decision-making.
 
 ---
 
@@ -26,29 +27,36 @@ To identify the most important factors affecting loan approval and provide a cle
 
 ## 📈 Key Insights
 - ✔ Credit history is the **strongest predictor** of loan approval  
-- ✔ Income alone is **not a reliable indicator**  
-- ✔ Higher loan amounts show **slightly higher rejection trends**  
-- ✔ Approval patterns vary across property areas  
+- ✔ Income alone is **not a reliable indicator** of approval  
+- ✔ Higher loan amounts are slightly associated with increased rejection rates  
+- ✔ Approval trends vary across different property areas  
+
+---
+
+## 💡 Business Impact
+- Helps identify **high-risk applicants** before approval  
+- Supports **data-driven lending decisions**  
+- Provides clear visibility into **approval patterns and risk factors**  
 
 ---
 
 ## 🔄 Workflow
-1. Data cleaning and preprocessing in Python  
-2. Handling missing values using median and mode  
-3. Exploratory data analysis to identify patterns  
-4. Dashboard creation in Power BI with:
-   - KPIs (Total Applicants, Approval Rate, Avg Loan Amount)
-   - Interactive filters (Property Area)
-   - Comparative visualizations  
+- Cleaned and preprocessed dataset using Python  
+- Handled missing values using **median (numerical)** and **mode (categorical)**  
+- Performed exploratory data analysis to uncover patterns  
+- Built an interactive Power BI dashboard with:
+  - KPI cards (Total Applicants, Approval Rate, Avg Loan Amount)  
+  - Visual comparisons across key features  
+  - Slicers for dynamic filtering  
 
 ---
 
 ## 📁 Repository Structure
-├── cleaned_loan_data.csv
-├── loan_analysis.ipynb
-├── loan_dashboard.pbix
-├── dashboard.png
-└── README.md
+cleaned_loan_data.csv
+loan_analysis.ipynb
+loan_dashboard.pbix
+dashboard.png
+README.md
 
 ---
 
@@ -61,9 +69,9 @@ To identify the most important factors affecting loan approval and provide a cle
 ---
 
 ## 🔮 Future Improvements
-- Build a predictive model for loan approval  
-- Add advanced feature engineering  
-- Enhance dashboard interactivity  
+- Develop a machine learning model to predict loan approval  
+- Add more advanced feature engineering  
+- Enhance dashboard interactivity and drill-down analysis  
 
 ---
 
